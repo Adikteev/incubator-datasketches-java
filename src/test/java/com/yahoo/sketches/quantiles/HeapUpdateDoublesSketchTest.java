@@ -612,7 +612,7 @@ public class HeapUpdateDoublesSketchTest {
   @Test
   public void checkImproperKvalues() {
     checksForImproperK(0);
-    checksForImproperK(1<<16);
+    checksForImproperK(1<<25);
   }
 
   //Primarily visual only tests

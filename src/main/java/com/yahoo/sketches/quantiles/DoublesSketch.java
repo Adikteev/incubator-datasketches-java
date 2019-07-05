@@ -140,7 +140,7 @@ public abstract class DoublesSketch {
   static final int DOUBLES_SER_VER = 3;
   static final int MAX_PRELONGS = Family.QUANTILES.getMaxPreLongs();
   static final int MIN_K = 2;
-  static final int MAX_K = 1 << 15;
+  static final int MAX_K = 1 << 24;
 
   /**
    * Setting the seed makes the results of the sketch deterministic if the input values are
